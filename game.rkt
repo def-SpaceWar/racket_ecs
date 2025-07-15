@@ -9,7 +9,7 @@
 (require "lib/systems.rkt")
 
 ;; My Constants
-(define DELTA-TIME .01)
+(define DELTA-TIME .016667)
 (define WIDTH 800)
 (define HEIGHT 600)
 (define EMPTY-WORLD (make-world 0 null))
